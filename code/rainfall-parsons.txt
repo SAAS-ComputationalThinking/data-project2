@@ -4,7 +4,6 @@ elif new_rain >= 0:
 day_count = 0
 total_rain = total_rain + new_rain
 day_count = day_count + 1
-print("Average:\t", total_rain/day_count)
 new_rain = float(input('How much rain today?\t'))
 new_rain = float(input("Average:\t" + str(total_rain/day_count) + '\tHow much rain today?\t'))
 if new_rain == 9999:
